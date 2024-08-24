@@ -5,8 +5,8 @@ const port = 3000;
 
 app.use(express.json());
 
-const authRoutes = require('./routes/auth');
-const audioRoutes = require('./routes/audio');
+const authRoutes = require('routes/auth');
+const audioRoutes = require('routes/audio');
 
 
 // Connexion à la base de données MongoDB
